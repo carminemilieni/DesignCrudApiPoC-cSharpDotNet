@@ -1,9 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using DesignCrudApiPoC.Interfaces.Entities;
 
-namespace DesignCrudApiPoC.Models.Entities;
+namespace DesignCrudApiPoC.API.Models;
 
-public class PeopleEntity : IPeople
+
+public interface IPeople
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public DateOnly Birthday { get; set; }
+    public int Age { get; }
+}
+
+public class PeopleModel : IPeople
 {
     [Key]
     public int Id { get; set; }
@@ -12,7 +20,7 @@ public class PeopleEntity : IPeople
     public DateOnly Birthday { get; set; }
     public int Age { get; }
     
-    public PeopleEntity(int id, string firstName, string lastName, DateOnly birthday)
+    public PeopleModel(int id, string firstName, string lastName, DateOnly birthday)
     {
         Id = id;
         FirstName = firstName;

@@ -2,10 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignCrudApiPoC.API", "DesignCrudApiPoC.API\DesignCrudApiPoC.API.csproj", "{81A86A2E-42BB-4E6B-A90D-3AE18BFCF492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignCrudApiPoC.Models", "DesignCrudApiPoC.Models\DesignCrudApiPoC.Models.csproj", "{57657F09-FCF8-4A67-9464-305B65FC0EB0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignCrudApiPoC.Interfaces", "DesignCrudApiPoC.Interfaces\DesignCrudApiPoC.Interfaces.csproj", "{04FE7043-26C6-4239-8A87-407EB9632D09}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
